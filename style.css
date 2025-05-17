@@ -1,0 +1,124 @@
+/* default to border-box */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* adjust typography defaults */
+  body {
+    margin: 1rem;
+    font-family: "lexend",sans-serif;
+    line-height: 1.5;
+    background-image: linear-gradient(to right, #431f54, #172549);
+    color:azure;
+  }
+  
+  h1 {
+    font-family: "lexend",sans-serif;
+    text-align: center;
+    font-weight: 800;
+    color: azure;
+    font-size: 4rem;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .blue {
+    color: #00A3FF;
+  }
+
+  p {
+    font-family: "lexend",sans-serif;
+    font-size: 1.5rem;
+    color: azure;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .project {
+    background-color: rgba(0, 0, 0, 0.342); /* White with 50% transparency */
+    border-radius: 10px; /* Adjust for desired roundness */
+    padding: 20px; /* Add padding for text and images inside */
+    width: 1000px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    overflow: auto; /* Add scrollbars if content overflows */
+    margin: 0 auto; /* Center the project box */
+  }
+
+  .projectimg {
+    width: 250px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 20px; /* Adjust for desired roundness */
+    float: left; /* Float the image to the left */
+    margin-right: 5px; /* Add some space between the image and text */
+  }
+
+  .tiny {
+    font-size: 1rem;
+    color:rgb(255, 255, 255)
+  }
+
+  .button {
+    background-color: #00a2ff00; /* Green */
+    border-width: 5px;
+    border-style: solid;
+    color: #00A3FF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: #00A3FF;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #00A3FF; /* Green */
+    color: azure;
+  }
+
+  .buttonoff {
+    background-color: #00a2ff00; /* Green */
+    border-width: 5px;
+    border-style: solid;
+    color: #00A3FF;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-color: #00A3FF;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: not-allowed;
+  }
+
+  .container { /* Add a container element in your HTML */
+    display: flex;
+    justify-content: center; /* Centers the vertical line horizontally */
+    align-items: center;    /* Centers the vertical line vertically (optional, depending on your layout) */
+    height: 500px;/* Example container height */
+  }
+  
+  .vertical {
+    border-left: 5px solid black;
+    height: 400px; /* Adjust height as needed */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
