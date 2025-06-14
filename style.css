@@ -122,3 +122,8 @@ html {
     margin: 0 auto;
     display: block;
   }
+
+  .scroller {
+  scrollbar-width: thin;
+  scrollbar-color: #431f54 transparent;
+  }
